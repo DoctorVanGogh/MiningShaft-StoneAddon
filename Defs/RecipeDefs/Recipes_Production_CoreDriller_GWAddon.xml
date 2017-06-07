@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RecipeDefs>
+	<RecipeDef Name="CoreDrillBase" Abstract="True">
+		<workAmount>5000</workAmount>
+		<efficiencyStat>MiningSpeed</efficiencyStat>
+    	<effectWorking>Drill</effectWorking>
+		<workSkillLearnFactor>0.2</workSkillLearnFactor>
+		<workSkill>Mining</workSkill>
+		<recipeUsers>
+			<li>CoreDrill</li>
+		</recipeUsers>		
+	</RecipeDef>
+	<!-- ============== Actual recipes =================== -->
+	<RecipeDef ParentName="CoreDrillBase">
+		<defName>MiningDeepMarble</defName>
+		<label>mining deep marble</label>
+		<description>mining deep marble.</description>
+		<jobString>Mining deep marble.</jobString>
+		<products>
+			<ChunkMarble>1</ChunkMarble>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="CoreDrillBase">
+		<defName>MiningDeepSandstone</defName>
+		<label>mining deep sandstone</label>
+		<description>mining deep sandstone.</description>
+		<jobString>Mining deep sandstone.</jobString>
+		<products>
+			<ChunkSandstone>1</ChunkSandstone>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="CoreDrillBase">
+		<defName>MiningDeepGranite</defName>
+		<label>mining deep granite</label>
+		<description>mining deep granite.</description>
+		<jobString>Mining deep granite.</jobString>
+		<products>
+			<ChunkGranite>1</ChunkGranite>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="CoreDrillBase">
+		<defName>MiningDeepLimestone</defName>
+		<label>mining deep limestone</label>
+		<description>mining deep limestone.</description>
+		<jobString>Mining deep limestone.</jobString>
+		<products>
+			<ChunkLimestone>1</ChunkLimestone>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="CoreDrillBase">
+		<defName>MiningDeepSlate</defName>
+		<label>mining deep slate</label>
+		<description>mining deep slate.</description>
+		<jobString>Mining deep slate.</jobString>
+		<products>
+			<ChunkSlate>1</ChunkSlate>
+		</products>
+	</RecipeDef>
+</RecipeDefs>
