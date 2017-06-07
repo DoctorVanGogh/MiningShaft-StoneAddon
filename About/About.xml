@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+
+    <name>Core Driller - Stone Addon</name>
+
+    <author>TheUbie</author>
+
+    <url>https://infinitepossibilitygames.com</url>
+
+    <targetVersion>0.16.1393</targetVersion>
+
+<description>
+An addon for deep core driller that adds all the stone types to the list of minable items.
+</description>
+
+</ModMetaData>
