@@ -5,10 +5,7 @@
 		<efficiencyStat>MiningSpeed</efficiencyStat>
     	<effectWorking>Drill</effectWorking>
 		<workSkillLearnFactor>0.2</workSkillLearnFactor>
-		<workSkill>Mining</workSkill>
-		<recipeUsers>
-			<li>CoreDrill</li>
-		</recipeUsers>		
+		<workSkill>Mining</workSkill>	
 	</RecipeDef>
 	<!-- ============== Actual recipes =================== -->
 	<RecipeDef ParentName="CoreDrillBase">
